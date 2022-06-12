@@ -38,3 +38,22 @@ Cualquier duda con estos métodos pueden consultarla por el campus
 
 print('Ahora si! buena suerte')
 # Empezar aquí la resolución del ejercicio
+'''
+Realice un programa que reciba por consola su nombre completo
+e imprima en pantalla su nombre en los siguientes formatos:
+- Todas las letras en minúsculas
+- Todas las letras en mayúsculas
+- Solo la primera letra del nombre en mayúscula
+'''
+print("Porfa ingrese su mombre completo!")
+nombre=str(input())
+#- Todas las letras en minúsculas
+print("Mirá tu nombre en minúsculas!")
+print(nombre.lower())
+#- Todas las letras en mayúsculas
+print("Mirá tu nombre en mayúsculas!")
+print(nombre.upper())
+#- Solo la primera letra del nombre en mayúscula
+print("Mirá la primer letra de tu nombre en Mayúscula!")
+print(nombre[:1].upper())
+

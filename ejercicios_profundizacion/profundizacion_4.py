@@ -45,3 +45,20 @@ Cualquier duda con el método split pueden consultarla por el campus
 
 print('Jugando con texto')
 # Empezar aquí la resolución del ejercicio
+#- Primero el programa debe consultar el nombre completo del padre_1
+print("Porfa ingresá el Nombre Completo del Padre/Madre 1:")
+padre1 = str(input())
+#- Luego el programa debe consultar el nombre completo del padre_2
+print("Porfa ingresá el Nombre Completo del Padre/Madre 2:")
+padre2 = str(input())
+#- Luego debe consultar el nombre del hijo/a
+print("Porfa ingresá el Nombre del Hijo:")
+hijo = str(input())
+#- Debe extraer los apellidos de los padres (ver la nota al final)
+nompadre1,apepadre1 = padre1.split(" ")
+nompadre2,apepadre2 = padre2.split(" ")
+#- Luego formar el nombre completo del hijo/a utilizando los apellidos
+#  de sus padres y el nombre ingresado de dicha persona
+#- Imprimir en pantalla el resultado
+hijo_completito=hijo+" "+apepadre1+" "+apepadre2
+print("El nombre completo del pequeño es:",hijo_completito)
