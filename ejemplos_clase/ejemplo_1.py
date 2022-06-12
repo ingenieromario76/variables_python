@@ -1,4 +1,4 @@
-# Tipos de variables [Python]
+# Tipos de variables [Python] edicion rapida
 # Ejemplos de clase
 
 # Autor: Inove Coding School
